@@ -1,0 +1,25 @@
+{
+  "name": "astudio-ai-seo",
+  "version": "1.0.0",
+  "description": "astudio AI-search visibility (GEO/AEO) for Claude Code: audit and fix how ChatGPT, Claude, Perplexity, Google AI Overviews/AI Mode and Yandex Alice AI find, read and cite a site - AI crawler policy, llms.txt, schema.org JSON-LD, citable content, measurement. English and Russian.",
+  "author": {
+    "name": "astudio.one",
+    "url": "https://astudio.one"
+  },
+  "keywords": [
+    "seo",
+    "geo",
+    "aeo",
+    "llms.txt",
+    "schema.org",
+    "json-ld",
+    "ai-search",
+    "yandex",
+    "alice",
+    "robots.txt"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/whoamnesia/astudio-ai-seo",
+  "repository": "https://github.com/whoamnesia/astudio-ai-seo",
+  "icon": "./.claude-plugin/icon.png"
+}

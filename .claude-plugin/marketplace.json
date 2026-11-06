@@ -1,0 +1,24 @@
+{
+  "name": "astudio-ai-seo",
+  "owner": {
+    "name": "astudio.one",
+    "url": "https://astudio.one"
+  },
+  "metadata": {
+    "description": "astudio-ai-seo by astudio.one",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "astudio-ai-seo",
+      "source": "./",
+      "description": "astudio AI-search visibility (GEO/AEO) for Claude Code: audit and fix how ChatGPT, Claude, Perplexity, Google AI Overviews/AI Mode and Yandex Alice AI find, read and cite a site - AI crawler policy, llms.txt, schema.org JSON-LD, citable content, measurement. English and Russian.",
+      "version": "1.0.0",
+      "author": {
+        "name": "astudio.one",
+        "url": "https://astudio.one"
+      },
+      "homepage": "https://github.com/whoamnesia/astudio-ai-seo"
+    }
+  ]
+}

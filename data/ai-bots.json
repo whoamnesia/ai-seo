@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-06",
+  "note": "Purpose of each robots.txt token. Never merge training and search bots into one finding. Re-check vendor pages before quoting user-agent versions.",
+  "bots": [
+    {"token": "Googlebot", "vendor": "Google", "purpose": "search", "governs": "Google Search, AI Overviews and AI Mode eligibility", "honours_robots": true, "source": "https://developers.google.com/search/docs/appearance/ai-features"},
+    {"token": "Google-Extended", "vendor": "Google", "purpose": "training-control", "governs": "Gemini training and grounding in other Google products; does NOT affect Search or AI Overviews; robots.txt token only, no own user-agent", "honours_robots": true, "source": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers"},
+    {"token": "OAI-SearchBot", "vendor": "OpenAI", "purpose": "search", "governs": "being shown in ChatGPT search answers", "honours_robots": true, "source": "https://developers.openai.com/api/docs/bots"},
+    {"token": "GPTBot", "vendor": "OpenAI", "purpose": "training", "governs": "use of content to train OpenAI foundation models", "honours_robots": true, "source": "https://developers.openai.com/api/docs/bots"},
+    {"token": "ChatGPT-User", "vendor": "OpenAI", "purpose": "user-fetch", "governs": "pages a user asks ChatGPT to open; robots.txt may not apply", "honours_robots": false, "source": "https://developers.openai.com/api/docs/bots"},
+    {"token": "Claude-SearchBot", "vendor": "Anthropic", "purpose": "search", "governs": "search indexing for Claude answers", "honours_robots": true, "source": "https://support.claude.com/en/articles/8896518"},
+    {"token": "ClaudeBot", "vendor": "Anthropic", "purpose": "training", "governs": "model training data collection", "honours_robots": true, "source": "https://support.claude.com/en/articles/8896518"},
+    {"token": "Claude-User", "vendor": "Anthropic", "purpose": "user-fetch", "governs": "pages a user asks Claude to open", "honours_robots": true, "source": "https://support.claude.com/en/articles/8896518"},
+    {"token": "PerplexityBot", "vendor": "Perplexity", "purpose": "search", "governs": "being surfaced and linked in Perplexity answers; not used for training", "honours_robots": true, "source": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers.md"},
+    {"token": "Perplexity-User", "vendor": "Perplexity", "purpose": "user-fetch", "governs": "user-requested fetches; generally ignores robots.txt", "honours_robots": false, "source": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers.md"},
+    {"token": "Applebot", "vendor": "Apple", "purpose": "search", "governs": "Siri and Spotlight suggestions", "honours_robots": true, "source": "https://support.apple.com/en-us/119829"},
+    {"token": "Applebot-Extended", "vendor": "Apple", "purpose": "training-control", "governs": "use of content for Apple foundation model training; does not crawl", "honours_robots": true, "source": "https://support.apple.com/en-us/119829"},
+    {"token": "Bingbot", "vendor": "Microsoft", "purpose": "search", "governs": "Bing and Copilot answers (Copilot grounds on the Bing index)", "honours_robots": true, "source": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0"},
+    {"token": "YandexBot", "vendor": "Yandex", "purpose": "search", "governs": "Yandex Search index; Alice AI answers use pages that rank well here", "honours_robots": true, "source": "https://yandex.ru/support/webmaster/ru/robot-workings/user-agent"},
+    {"token": "YandexAdditional", "vendor": "Yandex", "purpose": "ai-answer-control", "governs": "use of the site in Alice AI answers in Search and YandexGPT fast answers; Disallow takes effect in 2-14 days", "honours_robots": true, "source": "https://yandex.ru/support/webmaster/ru/search-appearance/fast"},
+    {"token": "YandexAdditionalBot", "vendor": "Yandex", "purpose": "ai-answer-control", "governs": "same control as YandexAdditional (Yandex help names both)", "honours_robots": true, "source": "https://yandex.ru/support/webmaster/ru/adding-site/indexing-prohibition"},
+    {"token": "CCBot", "vendor": "Common Crawl", "purpose": "training", "governs": "open web corpus widely used for model training", "honours_robots": true, "source": "https://commoncrawl.org/ccbot"},
+    {"token": "Bytespider", "vendor": "ByteDance", "purpose": "training", "governs": "training data collection", "honours_robots": true, "source": "https://bytespider.bytedance.com"}
+  ]
+}
