@@ -19,7 +19,7 @@
     "robots.txt"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/whoamnesia/astudio-ai-seo",
-  "repository": "https://github.com/whoamnesia/astudio-ai-seo",
+  "homepage": "https://github.com/whoamnesia/ai-seo",
+  "repository": "https://github.com/whoamnesia/ai-seo",
   "icon": "./.claude-plugin/icon.png"
 }

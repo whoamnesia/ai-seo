@@ -21,7 +21,7 @@ One plugin that teaches an agent how ChatGPT search, Claude, Perplexity, Google 
 In Claude Code:
 
 ```
-/plugin marketplace add whoamnesia/astudio-ai-seo
+/plugin marketplace add whoamnesia/ai-seo
 /plugin install astudio-ai-seo@astudio-ai-seo
 ```
 
